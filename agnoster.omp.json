@@ -10,10 +10,7 @@
           "foreground": "#D2D2D2",
           "background": "#636363",
           "powerline_symbol": "\ue0b0",
-          "template": " {{ if .WSL }}WSL {{ end }}{{.Icon}} ",
-          "properties": {
-            "macos": "mac"
-          }
+          "template": " {{ if .WSL }}WSL {{ end }}{{.Icon}} "
         },
         {
           "background": "#636363",
