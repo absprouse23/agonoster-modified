@@ -13,14 +13,6 @@
           "template": " {{ if .WSL }}WSL {{ end }}{{.Icon}} "
         },
         {
-          "background": "#636363",
-          "foreground": "#D2D2D2",
-          "powerline_symbol": "\ue0b0",
-          "style": "diamond",
-          "template": " {{ .UserName }}@{{ .HostName }} ",
-          "type": "session"
-        },
-        {
           "background": "#9EBBD9",
           "foreground": "#636363",
           "powerline_symbol": "\ue0b0",
